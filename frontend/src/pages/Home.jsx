@@ -65,13 +65,13 @@ const Home = () => {
                 </td>
                 <td className="border border-slate-700 rounded-md text-center">
                   <div className="flex gap-x-4 justify-center">
-                    <Link to={`/books/details/${book.id}`}>
+                    <Link to={`/books/details/${book._id}`}>
                       <BsInfoCircle className="text-2xl text-sky-800" />
                     </Link>
-                    <Link to={`/books/edit/${book.id}`}>
+                    <Link to={`/books/edit/${book._id}`}>
                       <AiOutlineEdit className="text-2xl text-sky-800" />
                     </Link>
-                    <Link to={`/books/delete/${book.id}`}>
+                    <Link to={`/books/delete/${book._id}`}>
                       <MdOutlineDelete className="text-2xl text-sky-800" />
                     </Link>
                   </div>
